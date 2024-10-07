@@ -1,3 +1,4 @@
+#This code will get the price for a static site with a listed price for 99.99 of a pot. This specific example is using the site of a pot shown in the url
 import smtplib
 import requests
 from bs4 import BeautifulSoup
