@@ -32,7 +32,7 @@ print(f"title={title_text}")
 price=soup_integer.text+soup_decimal.text
 #Change string to float
 price=float(price)
-print(f"Lowest price = {price}")
+print(f"Lowest price = ${price}")
 #Email message content
 message=f"Subject:Amazon Sale \n\n The price of : ({title_text}) has dropped \n url={url}"
 
